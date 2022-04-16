@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.banner{
+    height: 576px;
+    background-color :  #F0FFF0;
+}
+nav{
+    position: relative;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0;
+}
+.navbar-brand img{
+    max-height: 50px;
+}
+.nav-link{
+    font-size: 16px;
+    color: #000;
+}
