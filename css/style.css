@@ -194,3 +194,9 @@ nav{
     font-size: 18px;
     font-weight: 600;
 }
+.footer{
+    background-color: #282531;
+}
+.footer p{
+    color: #fff;
+}
