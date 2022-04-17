@@ -26,19 +26,35 @@ nav{
 .navbar-brand img{
     max-height: 50px;
 }
+.nav-item{
+    padding: 0px 10px;
+}
 .nav-link{
     font-size: 16px;
     font-weight: 400;
     color: #000;
+    padding: 10px 20px;
 }
 
-.nav-item:last-child .nav-link, .get-started, .enroll-btn{
+.nav-link:hover{
+    color: #21B573;
+}
+
+.nav-item:last-child .nav-link, 
+.get-started, 
+.enroll-btn{
     font-size: 16px;
     padding: 6px 25px;
     border: none;
     border-radius: 33px;
     color: #fff;
     background-color: #21B573;
+}
+.nav-item:last-child .nav-link:hover,
+.get-started:hover,
+.enroll-btn:hover{
+    background-color: rgba(0,0,0,0.2);
+    color: #000;
 }
 
 .banner-content{
@@ -124,10 +140,16 @@ nav{
 }
 .course .image{
     max-width: 310px;
+    max-height: 218px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .course .image img{
     width: 100%;
+    transition: width 0.5s ease;
+}
+.course:hover .image img{
+    width: 350px;
 }
 .course .course-heading{
     margin-bottom: 5px;
@@ -189,6 +211,9 @@ nav{
 .links-list ul li a{
     text-decoration: none;
     color: #fff;
+}
+.links-list ul li a:hover{
+    color: #21B573;
 }
 .links-list ul li:first-child{
     font-size: 18px;
