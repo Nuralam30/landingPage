@@ -31,11 +31,13 @@ nav{
     font-weight: 400;
     color: #000;
 }
-.signIn, .get-started, .enroll-btn{
+
+.nav-item:last-child .nav-link, .get-started, .enroll-btn{
     font-size: 16px;
-    padding: 4px 20px;
+    padding: 6px 25px;
     border: none;
     border-radius: 33px;
+    color: #fff;
     background-color: #21B573;
 }
 
@@ -110,11 +112,15 @@ nav{
 .online-courses{
     padding: 0px 20px;
 }
+.online-courses .section-heading{
+    color: #413960;
+}
 .course{
     padding: 20px;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .course .image{
     max-width: 310px;
@@ -136,4 +142,55 @@ nav{
 }
 .course-description span{
     font-size: 15px;
+}
+
+
+/*=========== testimonial section start ==========*/
+.testimonial{
+    padding: 60px 20px;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-content{
+    max-width: 650px;
+}
+.testimonial-content .image{
+    max-width: 100px;
+}
+.testimonial-content .image img{
+    width: 100%;
+}
+
+
+/*=========== quick-links section start ==========*/
+.quick-links{
+    padding: 60px 20px;
+    background-color: #282531;
+    color: #fff;
+}
+.site-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.site-links .text{
+    max-width: 350px;
+}
+.links-list ul{
+    list-style: none;
+}
+.links-list ul li{
+    padding: 3px 0px;
+}
+.links-list ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.links-list ul li:first-child{
+    font-size: 18px;
+    font-weight: 600;
 }
